@@ -10,7 +10,7 @@ CREATE TABLE cliente (
     nombre VARCHAR(30),
     apellido VARCHAR(30),
     telefono VARCHAR(15),
-    email VARCHAR(150)  
+    email VARCHAR(150) UNIQUE  
 );
 
 
